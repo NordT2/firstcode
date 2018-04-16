@@ -4,7 +4,7 @@
 <body>
 
 <script>
-var name=prompt("Guess the number")
+prompt("Guess the number")
 var myNumber=56;
 if (myNumber > 56){
 alert("lower");
