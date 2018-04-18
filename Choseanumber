@@ -4,7 +4,7 @@
 <body>
 
 <script>
-prompt("I am thinking of a random number between 50 and 100. What is it?'")
+prompt("I am thinking of a random number between 50 and 100. What is it?")
 var myNumber = 67
 var guess = prompt ('),
 if (parseInt(guess) === myNumber) 
