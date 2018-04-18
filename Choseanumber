@@ -5,13 +5,15 @@
 
 <script>
 prompt("Guess the number")
-var myNumber=56;
-if (myNumber > 56){
-alert("lower");
+if ("myNumber" >=67 ) 
+{
+    console.log("higher");
 }
 else 
 {
-alert("higher");
+    // What should we do if the condition is false? Fill in here:
+    console.log("lower");
+}
 </script>
 
 </body>
