@@ -4,15 +4,16 @@
 <body>
 
 <script>
-prompt("Guess the number")
-if ("myNumber" >=67 ) 
+prompt("I am thinking of a random number between 50 and 100. What is it?'")
+var myNumber = 67
+var guess = prompt ('),
+if (parseInt(guess) === myNumber) 
 {
-    console.log("higher");
+    document.write("<p>higher</p>");
 }
 else 
 {
-    // What should we do if the condition is false? Fill in here:
-    console.log("lower");
+    document.write("<p>The number was "+ myNumber +"</p>");
 }
 </script>
 
